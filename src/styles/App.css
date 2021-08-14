@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.containerHomeAdv{
+    width:430px ;
+    height: 592px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    border: 0.5px solid #BDBDBD;
+    box-sizing: border-box;
+    background-color: #EBED93;
+}
+.homeNav{display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: #0B3352;
+    color:white;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.navTitle{  margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+}
+.infoIcon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.homeBody{
+    color: #5C5C5C;
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 30px;
+    margin-top: 18px;
+   
+}
+.homeBody section div{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 13px;
+}
+.homeBody section p{
+    font-weight: 400 !important;
+ line-height: 13.41px ;  
+ vertical-align: center;
+ margin-left: 15px;
+ margin-top: 5px;
+}
