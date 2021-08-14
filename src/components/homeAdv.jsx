@@ -1,5 +1,5 @@
 import "../styles/App.css"
-
+import CardHome from "./advPage/cardHome";
 const HomeAdv = () => {
     return (
         <div className="containerHomeAdv">
@@ -28,9 +28,11 @@ const HomeAdv = () => {
                         as well; This Feature allows you to See how much ( Viewers ) Saw<br /> any of your ( added banners ) </p>
                 </section>
                 <section>
-                    <div><br />Example of home page banner</div>
+                    <div ><br />Example of home page banner<br /><br /></div>
                 </section>
+
             </div>
+            <CardHome />
         </div>
     )
 }
