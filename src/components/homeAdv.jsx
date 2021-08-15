@@ -30,9 +30,9 @@ const HomeAdv = () => {
                 <section>
                     <div ><br />Example of home page banner<br /><br /></div>
                 </section>
-
+                <CardHome />
             </div>
-            <CardHome />
+       
         </div>
     )
 }
