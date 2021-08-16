@@ -175,6 +175,7 @@
 .imgUpload {
   border-radius: 5px;
   display: block;
+  cursor: pointer;
 }
 .divimgUpload {
   padding: 15px 13px 10px;
@@ -186,7 +187,8 @@
 .addimg {
   width: 25px;
   height: 25px;
-  margin: -7px -6px;
+  margin: -15px 0px 0px -12px;
+  position: relative;
 }
 .btnPre {
   color: white;
@@ -267,4 +269,153 @@
   .rideoBtn {
     flex-direction: column;
   }
+}
+
+.containerCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  width: 333px;
+  height: 157px;
+  font-family: Montserrat;
+}
+.cardHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cardHeadimg {
+  width: 107px;
+  height: 93px;
+  margin: 3px;
+}
+.cardHeadDet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.cardHeadDet .date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+}
+.titleCard {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+}
+.cardDes {
+  margin-left: 5px;
+  margin-right: 8px;
+  font-weight: 400;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardBody {
+  flex: 90%;
+}
+.cardBtn {
+  border-radius: 2px;
+  font-family: Roboto;
+  width: 80px;
+  height: 22px;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  background-color: #c00a09;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  padding: 2px 5px 2px 5px;
+}
+.Cardicons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 5px;
+  margin-right: 25px;
+}
+.Cardicons div {
+  display: flex;
+  align-items: center;
+}
+.Cardicon {
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  margin-left: 10px;
+}
+.price {
+  text-align: right;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #0b3e74;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.clippath {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11px;
+  clip-path: polygon(
+    29% 0,
+    100% 0,
+    100% 100%,
+    98% 100%,
+    100% 100%,
+    0 100%,
+    13% 100%,
+    24% 6%,
+    26% 0
+  );
+  padding: 3px 5px;
+  background-color: rgba(10, 62, 102, 1);
+  width: 90%;
+  float: right;
+  /* White */
+  color: #ffffff;
+}
+.cardFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+}
+.cardFooter img {
+  margin-right: 5%;
+}
+.byOwner {
+  display: flex;
+  flex-direction: column;
+  margin-top: -8%;
+  margin-left: 10%;
+  align-items: center;
+}
+.byOwner img {
+  width: 20px;
+  height: 18.2px;
+}
+.byOwner p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 11px;
+  width: 50px;
+  height: 18.2px;
 }

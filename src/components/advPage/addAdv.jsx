@@ -1,7 +1,8 @@
-import CardHome from "./cardHome"
-import { Box, Button, Flex, Grid, GridItem } from "@chakra-ui/react"
+
+import { Grid, GridItem } from "@chakra-ui/react"
 import CardAdd from "./cardAdd"
 const AddAdv=()=>{
+
     return(
         <div className="addAdv" >
         <div className="homeNav">
@@ -24,7 +25,12 @@ const AddAdv=()=>{
                <div className="title"> Add  Image</div>
                 <Grid templateColumns="repeat(2, 1fr)" gap={4}>
   <GridItem colSpan={2}  w={150} >    <p className="imgdes" >Upload slideshow images with preferred dimension xxxx px</p></GridItem>
-  <GridItem colStart={4} colEnd={6}  ><div className="divimgUpload"><img src="/img/decor.png" alt="uploading img"className="imgUpload"/></div><img src="/img/add_a_photo.png" alt="addImg" className="addimg"/></GridItem>
+  <GridItem colStart={4} colEnd={6}  ><div className="divimgUpload">
+      <img src="/img/decor.png" alt="uploading img"className="imgUpload" />
+ 
+      </div>
+      <img src="/img/add_a_photo.png" alt="addImg" className="addimg"/>
+      </GridItem>
 </Grid>
                 </div>
                 </section>
