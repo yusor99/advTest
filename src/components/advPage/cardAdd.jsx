@@ -1,7 +1,8 @@
 import { SimpleGrid } from "@chakra-ui/react"
+import { Box } from "@chakra-ui/react"
 const CardAdd = () => {
     return (
-        <div className="containerCardHome"  >
+        <Box className="containerCardHome" w="407px" h="180px" >
             <div className="body" >
                 <SimpleGrid columns={2} spacing={1} >
                     <img src="/img/Rectangle 4767.png" alt="Rectangle" width="205px" height="118px" />
@@ -21,7 +22,7 @@ const CardAdd = () => {
                 </div>
                 <img src="/img/Untitled-1 33.png" alt="unitled" className="img2footer"/>
             </div>
-        </div >
+        </Box >
     )
 }
 export default CardAdd;

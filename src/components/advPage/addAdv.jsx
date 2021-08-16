@@ -1,5 +1,5 @@
 import CardHome from "./cardHome"
-import { Button, Grid, GridItem } from "@chakra-ui/react"
+import { Box, Button, Flex, Grid, GridItem } from "@chakra-ui/react"
 import CardAdd from "./cardAdd"
 const AddAdv=()=>{
     return(
@@ -29,26 +29,25 @@ const AddAdv=()=>{
                 </div>
                 </section>
                 <div className="hr hrmarg" / >
-                <section>     
+                <section className="sec2Add">     
           
-              <Grid templateColumns="repeat(2, 1fr)" gap={4}>
-                  <GridItem  colSpan={2}  w={150}>
+                  <div className="addCard">
                        <button className="btnPre">Preview</button>
-                       </GridItem>
-              <GridItem colStart={4} colEnd={6}> 
+                       </div>
+              <div > 
                    <CardAdd/>
-                   </GridItem>
-              </Grid>
+                   </div>
+             
                     <div className="addPlan">
                         <p>Add Plan</p>
                         <div className="rideoBtn">
-        <input type="radio" value="30 day ( $100.00 ) " name="plan" />  30 day ( $100.00 ) 
-        <input type="radio" value="180 day ( $150.00 ) " name="plan" /> 180 day ( $150.00 ) 
-        <input type="radio" value="360 day ( $200.00 ) " name="plan" /> 360 day ( $200.00 ) 
+       <p> <input type="radio" value="30 day ( $100.00 ) " name="plan" className="radio"/>  30 day ( $100.00 ) </p>
+       <p> <input type="radio" value="180 day ( $150.00 ) " name="plan"className="radio" /> 180 day ( $150.00 ) </p>
+  <p>      <input type="radio" value="360 day ( $200.00 ) " name="plan" className="radio"/> 360 day ( $200.00 ) </p>
       </div>
                     </div>
                 </section>
-                <div className="hr"/>
+                <div className="hr hrmarg"/>
             </div>
             <div className="footerAdd">
                 <p>cLICK “Approve and pay” TO SAVE CANGES AND GO TO THE payment step</p>
